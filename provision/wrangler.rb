@@ -231,7 +231,7 @@ class Wrangler
       is_cached = false
       distros.each do |distro|
         filename = make_bottle_filename(info,distro)
-        puts "B:#{filename}"
+        #puts "B:#{filename}"
         bi = bottle_avail(filename)
         if bi
           if download_bottle(destdir, bi)
@@ -270,7 +270,8 @@ def get_distros(platform)
   end
 end
 
-brewdir = "/usr/local/edarr"
+PROJECT='edarr'
+brewdir = "/usr/local/#{PROJECT}"
 formula_srcdir = "./provision/formula"
 `mkdir -p ./build`
 platform=`python3 ./get_platform.py --platform`.chomp.strip
@@ -294,5 +295,5 @@ obj.load_platform_formulas_csv("./provision/#{platform}-formulas.csv", ['tool','
 builds_needed = obj.download_bottles('./build', get_distros(platform))
 builds_needed.each do |info|
   puts "Building bottle #{info.name}"
-#  `#{brewdir}/bin/brew bottle --skip-relocation #{info.name}`
+  `#{brewdir}/bin/brew install --build-bottle #{PROJECT}/#{info.name} && #{brewdir}/bin/brew bottle --skip-relocation #{PROJECT}/#{info.name}`
 end
