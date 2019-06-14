@@ -1,0 +1,24 @@
+#posix
+#tool,sqlite
+tool,pkg-config
+tool,makedepend
+tool,clang-format
+tool,autoconf
+tool,automake
+tool,libtool
+dep,xz
+dep,cmake
+dep,libxml2
+dep,openssl
+
+# darwin
+xdep,ssdeep-cpp
+dep,rapidjson
+#dep,zstd
+dep,libmagic
+dep,pcre
+dep,gflags
+dep,glog
+
+# libarchive for file carving
+xdep,libarchive

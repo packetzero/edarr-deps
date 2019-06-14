@@ -1,0 +1,36 @@
+HOST,osquery,https://osquery-packages.s3.amazonaws.com/bottles
+HOST,osql,https://osql-packages.nyc3.digitaloceanspaces.com/bottles
+# host,filename,hash
+# --------------------------------------------
+osql,boost-1.69.0_100.sierra.bottle.tar.gz,757c5df2129108e680c0f48a5fdc5f77ea5825361bc8815a022118b73a215b8a
+osquery,rapidjson-1.1.0_201.sierra.bottle.tar.gz,173d111815b6d7b3e2edd3fde4f498bebca2d62643778735a8323e6ca6a2692d
+osquery,rapidjson-1.1.0_201.x86_64_linux.bottle.tar.gz,0b867773af2bbcb897dac9642a7505e6a13cbe598e645009e84462639254e09e
+osquery,automake-1.16.1.high_sierra.bottle.tar.gz,f9d2f7f913917ce686bf8dab00fe5c5f2c971038ed91b2a6ec8cd6be9efd9b31
+osquery,xz-5.2.2_200.sierra.bottle.tar.gz,95db3776f168bbd5eadf047e47f860dc308d96ae80940ce41fe400562b02d96e
+osquery,xz-5.2.2_200.x86_64_linux.bottle.tar.gz,7dd32d61f232f05359ceb52ccb0594c64c1c6d6a8f2532b4627625f4567026d6
+osquery,glog-0.3.5_200.sierra.bottle.tar.gz,3d6875f45ed791e552c034f474a0e5bf89d6b3235323b2d077b711fbded0df86
+osquery,glog-0.3.5_200.x86_64_linux.bottle.tar.gz,c0ba27596c32635814720f51503ebc0b79842d72a4d945c266ffa60aabab058f
+osquery,pcre-8.40_200.sierra.bottle.tar.gz,ef2603eb9f6ad41c19b083a2d729069dbfccf3084a66d8de0088ea2b5778009f
+osquery,pcre-8.40_200.x86_64_linux.bottle.tar.gz,224a7e4f71b143064dfc97dbca18eea29b257cd1f0fefb923c9bf0943f391eca
+osquery,libtool-2.4.6_1.high_sierra.bottle.tar.gz,ebb50367eb2336ee317841587e24690de124fb2c3e4d346405e9b41c4e6120ae
+osquery,pkg-config-0.29.2.high_sierra.bottle.tar.gz,f1b29fb5388dccab0fcaf665ab43d308ee51816b24262417bf83a686b6e308ae
+osquery,llvm-6.0.0_201.x86_64_linux.bottle.tar.gz,5b5e788ee9a9437fd49c1707ccccff73eae8812abd6b468ff9b4112d5d05347b
+osquery,makedepend-1.0.5.high_sierra.bottle.1.tar.gz,648d18f27ef8ea0067a1d315ac9ffedece1734d950fa1228175ddd6f04c02ecf
+osquery,libmagic-5.32_200.sierra.bottle.tar.gz,aded14705f5ef4cce9b62b4be7157c63ebebed871f8f2e20bf2f23423c56eb4f
+osquery,libmagic-5.32_200.x86_64_linux.bottle.tar.gz,b92728f8418492c61283600befdabbb891eba150d0611f10a4bc53989825952a
+osquery,bzip2-1.0.6_200.x86_64_linux.bottle.tar.gz,9198241b2295595a07f0471c560d89afede570550b9d1b7fde1137fd9655273a
+osquery,clang-format-2018-04-24.high_sierra.bottle.tar.gz,d45589054615e47aca8acc51c84c484a8b3428a3d89079aa19457c3cae475653
+osquery,libxml2-2.9.7_200.sierra.bottle.tar.gz,78b01c23d2f2391b5c0ea9c9e52489c11a28cd85b7e14f8b7a040a471e420e0c
+osquery,cmake-3.12.0-rc1_100.sierra.bottle.tar.gz,531c5d07e1f9ffe5fd8ead11f3b928c8405c33061118c0b69832b2a24ebd09e7
+osquery,cmake-3.12.0-rc1_100.x86_64_linux.bottle.tar.gz,aeb3ef3663e91ef1206afe965dfe358249a1994f8c96ac946e5d3ed7376e3fd6
+osquery,libxml2-2.9.7_200.x86_64_linux.bottle.tar.gz,484eeb6ff8dab7fe909a70a2ba22747796e43cf09df3f83e122c7633c0adb5e4
+osquery,cppcheck-1.75_200.sierra.bottle.tar.gz,cca248e43d8df6b6663998609036bf15ca91c5f79f19d1f45713e3668e352a44
+osquery,cppcheck-1.75_200.x86_64_linux.bottle.tar.gz,ed4d2bde63dce396d0f46814fc9d33057c0dc18e140b7d2fb06c0ffb0b6cc9d4
+osquery,gflags-2.2.1_200.sierra.bottle.tar.gz,dd8f29f2e3f51f8ab9071172cdfdb4dfbd0f65c7e56324469901620aa515041e
+osquery,gflags-2.2.1_200.x86_64_linux.bottle.tar.gz,207abb23d835c159094abcb723add137fafd19edcc34079b75aa1ca50ff050ee
+osquery,autoconf-2.69.high_sierra.bottle.4.tar.gz,63957a3952b7af5496012b3819c9956822fd7d895d63339c23fdc65c502e1a40
+osquery,libcpp-6.0.0_201.x86_64_linux.bottle.tar.gz,a33a4c4b63e2e6f8d0beda67fcd3470161034c2a488e96f300280e831a43264e
+osquery,openssl-1.0.2o_200.sierra.bottle.tar.gz,3539d1d207a40185d72ddf5c006813f0e97b29f4b88e7283366de5d366d190bc
+osquery,openssl-1.0.2o_200.x86_64_linux.bottle.tar.gz,ab20de60c78614159b11b46affc91b5a1eae2be2df017473461bfddef6bd37bd
+osquery,libarchive-3.3.2_200.sierra.bottle.tar.gz,0dee0d31e321e1046b4c1d996ed9130a0422818f51521bf8a742b5d805ec3e86
+osquery,libarchive-3.3.2_200.x86_64_linux.bottle.tar.gz,8a64333cdb781499c3ae6596a902eb1df9dc74456ad68b6f5bfc3be357685e97
